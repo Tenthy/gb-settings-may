@@ -1,5 +1,5 @@
 spring.datasource:
-  url: "jdbc:postgresql://localhost:5432/geekbrains_shop"
+  url: "jdbc:postgresql://localhost:5432/gb_liquibase"
   username: "postgres"
   password: "kmetha"
 
