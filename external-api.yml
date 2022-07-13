@@ -1,8 +1,9 @@
 gb.api:
   endpoint:
-    manufacturer-url: 'http://localhost:8080/api/v1/manufacturer'
-    product-url: 'http://localhost:8080/api/v1/product'
-    category-url: 'http://localhost:8080/api/v1/category'
+    manufacturer-url: 'http://localhost:8080/manufacturer'
+    product-url: 'http://localhost:8080/product'
+    category-url: 'http://localhost:8080/category'
+    cart-url: 'http://localhost:8080/cart'
   connection:
     period: 100
     max-period: 10000 #Millis
@@ -12,3 +13,7 @@ gb.api:
     read-timeout: 30000 #Millis
     #    read-timeout-unit:
     follow-redirect: true
+
+jwt.token:
+  expired: 86_400_000
+  secret: 'gbsecret'
